@@ -13,7 +13,7 @@ class App < Sinatra::Base
   post '/puppy'
     @name = params[:name]
     @breed = params[:breed]
-    @
+    @age = params[:months_old]
   end
 
 end
